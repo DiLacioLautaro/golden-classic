@@ -10,6 +10,14 @@ persona cómo evoluciona.
 > lo muestro a pedido en procesos de selección. Contacto: [portfolio](https://dilaciolautaro.github.io/portfolio/) ·
 > [LinkedIn](https://www.linkedin.com/in/lautaro-di-lacio)
 
+<p>
+  <img src="img/mediciones.png" width="32%" alt="Mediciones: las poses clásicas para medir">
+  <img src="img/historial.png" width="32%" alt="Historial de capturas y poses medidas">
+  <img src="img/ajustes.png" width="32%" alt="Ajustes: respaldo, bloqueo y aporte de fotos">
+</p>
+
+<sub>Capturas del entorno de pruebas, con el historial vacío.</sub>
+
 ## Qué hace
 
 - **Para el atleta:** mediciones en vivo de V-Taper, ángulos, simetría y Canon Griego sobre
@@ -67,6 +75,18 @@ flowchart LR
 - CI en GitHub Actions sobre Linux y Windows, más una pasada contra PostgreSQL y el build de la
   imagen de la API.
 - Despliegue automático al entorno de pruebas, condicionado a que el CI pase.
+
+## En números
+
+| | |
+|---|---|
+| Aplicaciones | 3 (app del atleta, panel del preparador, API) |
+| Paquetes compartidos | 4 |
+| Poses del catálogo | 23 |
+| Archivos de test | 344 |
+| Migraciones de base | 12 |
+
+Contado sobre la rama principal el 15/11/2026.
 
 ## Stack
 
